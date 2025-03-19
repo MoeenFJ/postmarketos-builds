@@ -94,7 +94,7 @@ jobs:
            rm -r out/*
            cp ~/.local/var/pmbootstrap/packages/edge/aarch64/linux-postmarketos-qcom-sm8250-pipa-*.apk out/
       
-      - name: Upload artifacts xiaomi-pipa with GNOME
+      - name: Upload artifacts xiaomi-pipa kernel
         uses: actions/upload-artifact@v4
         with:
            name: xiaomi-pipa-kernel
